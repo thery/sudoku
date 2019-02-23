@@ -1,0 +1,13 @@
+-R . sudoku
+
+Div.v
+ListAux.v
+ListOp.v
+OrderedList.v
+Permutation.v
+Sudoku.v
+Tactic.v
+Test.v
+UList.v
+Print.v
+Parse.v
