@@ -10,7 +10,7 @@ build: [
   [make "-j%{jobs}%"]
 ]
 install: [
-  [make "install"]
+  [make "install"]
 ]
 remove: ["rm" "-R" "%{lib}%/coq/user-contrib/Sudoku"]
 depends: [
