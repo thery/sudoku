@@ -11,8 +11,6 @@ let string2l s =
   let le = String.length s in
   let rec iter i = if i = le then Nil else
       Cons (n2nat (Char.code (String.get s i) - 48), iter (i + 1)) in
-  print_string s;
-  print_newline();
   iter 0
 
 let rec l2stringr s l =
