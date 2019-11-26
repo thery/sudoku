@@ -24,7 +24,7 @@ Inductive ulist : list A ->  Prop :=
    ulist_nil: ulist nil
  | ulist_cons: forall a l, ~ In a l -> ulist l ->  ulist (a :: l) .
 
-Hint Constructors ulist .
+Hint Constructors ulist : core.
 
 (* Inversion theorem *)
  
@@ -280,7 +280,7 @@ Qed.
 End UniqueList.
 
 Arguments ulist [A].
-Hint Constructors ulist .
+Hint Constructors ulist : core.
  
 Theorem ulist_map (A B : Set) (f : A ->  B) l : 
  (forall x y, (In x l) -> (In y l) ->  f x = f y ->  x = y) -> ulist l ->  ulist (map f l).
