@@ -31,7 +31,7 @@ post-all::
 clean::
 	rm -f Sudoku.bytes
 Sudoku.bytes :  jSudoku.cmi jSudoku.ml Sudoku.ml Sudoku.cmi
-	ocamlfind ocamlc -package js_of_ocaml -package js_of_ocaml.ppx -linkpkg -o Sudoku.bytes Sudoku.ml jSudoku.ml
+	ocamlfind ocamlc -package js_of_ocaml -package js_of_ocaml-ppx -linkpkg -o Sudoku.bytes Sudoku.ml jSudoku.ml
 
 post-all::
 	$(MAKE) -f $(SELF) Sudoku.js

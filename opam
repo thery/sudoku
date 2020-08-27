@@ -14,9 +14,9 @@ install: [
 ]
 remove: ["rm" "-R" "%{lib}%/coq/user-contrib/Sudoku"]
 depends: [
-  "coq" {(>= "8.12")}
-  "js_of_ocaml" {(>= "3.3.0")}
-  "js_of_ocaml-ppx" {(>= "3.3.0")}
+  "coq" {(>= "8.13")}
+  "js_of_ocaml" {(>= "3.8.0")}
+  "js_of_ocaml-ppx" {(>= "3.8.0")}
 ]
 tags: [
 ]
