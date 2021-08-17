@@ -2,6 +2,7 @@
 
 ## Sudoku
 
+### THIS REPOSITORY HAS BEEN ARCHIVED. THE CONTENT HAS BEEN MOVED [HERE](https://github.com/coq-community/sudoku)
 
 A formalisation of Sudoku in Coq. It implements a naive
 Davis-Putnam procedure to solve sudokus.
